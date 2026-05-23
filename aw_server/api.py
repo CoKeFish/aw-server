@@ -183,7 +183,7 @@ class ServerAPI:
         """Update bucket metadata"""
         self.db.update_bucket(
             bucket_id,
-            type=event_type,
+            type_id=event_type,
             client=client,
             hostname=hostname,
             data=data,
